@@ -17,6 +17,7 @@ and to be tested by experts before being used in production
 	- Flyway
 - ~~Application Profiles~~
 - Application Properties
+    - @ConditionalOnProperty
 - Patterns
     - Circuit Breaker - Resilience4J
 - Tests

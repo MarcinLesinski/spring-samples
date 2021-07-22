@@ -4,6 +4,7 @@ import io.stud.forest.springsamples.fantasy_world.model.Terrain
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
+@Repository
 interface TerrainsRepository {
     fun save(terrain: Terrain): Terrain
     fun saveAll(terrains: Iterable<Terrain>): Iterable<Terrain>

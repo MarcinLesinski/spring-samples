@@ -13,6 +13,7 @@ create table if not exists regions (
   name VarChar(50),
   description VarChar(256),
 
+  located_in_country_id BigInt,
   primary key (id)
 );
 
@@ -36,5 +37,6 @@ create table if not exists towns (
   foreign key (country_id) references countries(id),
   primary key(id)
 );
+
 
 commit;
